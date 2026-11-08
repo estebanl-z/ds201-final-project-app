@@ -45,6 +45,10 @@ def year_axis(ax):
 
 def shade_covid(ax):
     ax.axvspan(COVID_START, COVID_END, color="gray", alpha=0.15, zorder=0)
+    # label centered in the band, near the top (x in data units, y as a fraction of the axis height)
+    ax.text(COVID_START + (COVID_END - COVID_START) / 2, 0.97, "COVID-19",
+            transform=ax.get_xaxis_transform(), ha="center", va="top",
+            fontsize=10, fontweight="bold", color="dimgray", zorder=5)
 
 
 def trend_chart(d, metric, show_covid):
