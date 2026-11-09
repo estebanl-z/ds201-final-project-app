@@ -12,9 +12,8 @@ st.set_page_config(page_title="US Airfare & Passenger Demand", layout="wide")
 
 DATA_PATH = (Path(__file__).resolve().parent.parent / "data"
              / "merged_fare_passengers.csv")
-REPO_URL = "https://github.com/estebanl-z/ds201-final-project-appgit remote set-url origin https://github.com/estebanl-z/ds201-final-project-app.git
-git remote -v"
-TEAM = "Luke and Angelina"  # replace with full names if required
+REPO_URL = "https://github.com/estebanl-z/ds201-final-project-app"
+TEAM = "Angelina Wu and Luke Esteban"  
 
 FARE_COLOR = "#E76F51"  # orange-red, used for fares
 PAX_COLOR = "#457B9D"   # steel blue, used for passengers
