@@ -2,8 +2,8 @@
 
 **Team:** Luke and Angelina
 
-**Live app:** https://YOUR-APP-NAME.streamlit.app
-**Data and analysis repository:** https://github.com/estebanl-z/airfare-passenger-analysis
+- **Live app:** https://ds201-final-project-app-iszpc8tvrdd8wrl6pdm2bl.streamlit.app/
+- **Data and analysis repository:** https://github.com/Angelina181399/ds201-final-project-data-analysis
 
 This repository holds the code for an interactive dashboard that explores how
 US domestic airfares changed from 2015 to 2026 and how they relate to
@@ -72,4 +72,5 @@ browser.
 
 - Bureau of Transportation Statistics (BTS), Average Domestic Airline
   Itinerary Fares: <https://www.transtats.bts.gov/AverageFare/>
-- BTS Air Carrier Statistics, T-100
+- BTS Air Carrier Statistics, T-100 Domestic Market (U.S. carriers):
+  <https://www.transtats.bts.gov/>
