@@ -28,7 +28,7 @@ passenger demand, including seasonal patterns and the effect of COVID-19.
 ## Repository structure
 
 ```
-ds201-final-project/
+ds201-final-project-app/
   app/
     app.py                          Streamlit app (all dashboard code)
   data/
@@ -59,8 +59,8 @@ values.
 ## Run the app locally
 
 ```
-git clone https://github.com/estebanl-z/ds201-final-project
-cd ds201-final-project
+git clone https://github.com/estebanl-z/ds201-final-project-app
+cd ds201-final-project-app
 python -m pip install -r requirements.txt
 python -m streamlit run app/app.py
 ```
